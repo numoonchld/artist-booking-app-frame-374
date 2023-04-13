@@ -1,0 +1,31 @@
+.top-recommended-container > .top-text-area {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.top-recommended-container > .top-text-area > .title {
+  font-family: "Roboto Flex";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 132.69%;
+  /* identical to box height, or 19px */
+
+  text-transform: capitalize;
+
+  color: #1b1a1a;
+}
+
+.top-recommended-container > .top-text-area > .view-all-cta {
+  font-family: "Roboto Flex";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 132.69%;
+  /* identical to box height, or 16px */
+
+  text-transform: capitalize;
+
+  color: #f5821f;
+}

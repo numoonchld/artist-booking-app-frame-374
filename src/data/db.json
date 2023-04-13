@@ -1,0 +1,19 @@
+{
+    "artists": [
+        {
+            "id": 1,
+            "name": "Martin Garrix",
+            "body": "Martin Garrix - the name that belongs to one of the youngest and most successful DJ’s/producers..",
+            "nationality": "Dutch",
+            "time": "10 - 15 Min."
+        },
+        {
+            "id": 2,
+            "name": "Chainsmokers",
+            "body": "Denver-based producer ILLENIUM is one of the most successful crossover electronic artists today, ",
+            "nationality": "Dutch",
+            "time": "10 - 15 Min."
+        }
+
+    ]
+}
