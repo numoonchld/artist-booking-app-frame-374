@@ -18,7 +18,7 @@ function RecentSearch() {
         <div className="title">Recent Search</div>
         <div className="tags-area">
           {searchTerm.map((term) => (
-            <SearchTermTag tagText={term} />
+            <SearchTermTag key={term} tagText={term} />
           ))}
         </div>
       </section>

@@ -1,0 +1,158 @@
+.artist-card-container {
+  margin-bottom: 12px;
+  width: 100%;
+  min-height: calc(128px + 105px);
+
+  background: #ffffff;
+  box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.04);
+  border-radius: 0px 0px 6px 6px;
+}
+
+.artist-card-container > img {
+  object-fit: cover;
+  width: 100%;
+
+  margin-bottom: 12px;
+}
+
+.artist-card-container > .artist-detail-area > .title-area {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.artist-card-container
+  > .artist-detail-area
+  > .title-area
+  > .artist-name-and-type-icon {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+
+  margin-left: 16px;
+  margin-bottom: 4px;
+}
+
+.artist-card-container
+  > .artist-detail-area
+  > .title-area
+  > .artist-name-and-type-icon
+  > .artist-name {
+  font-family: "Roboto Flex";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: capitalize;
+
+  color: #211b1b;
+}
+
+.artist-card-container
+  > .artist-detail-area
+  > .title-area
+  > .availability-status {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  width: 66px;
+  height: 19px;
+
+  background: #26f47e;
+  border-radius: 0px;
+
+  font-family: "Roboto Flex";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  /* identical to box height */
+
+  text-transform: capitalize;
+
+  color: #ffffff;
+}
+
+.artist-card-container > .artist-detail-area > .rating-and-info-area {
+  margin: 0px 16px;
+}
+
+.artist-card-container
+  > .artist-detail-area
+  > .rating-and-info-area
+  > .artist-description {
+  font-family: "Roboto Flex";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  text-transform: capitalize;
+  line-height: 132.69%;
+
+  color: #7f7f7f;
+}
+
+.artist-card-container
+  > .artist-detail-area
+  > .rating-and-info-area
+  > .nationality-and-booking-time {
+  padding-bottom: 16px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 34px;
+}
+
+.artist-card-container
+  > .artist-detail-area
+  > .rating-and-info-area
+  > .nationality-and-booking-time
+  > .nationality {
+  font-family: "Roboto Flex";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 132.69%;
+  /* or 13px */
+
+  text-transform: capitalize;
+
+  color: #000000;
+}
+
+.artist-card-container
+  > .artist-detail-area
+  > .rating-and-info-area
+  > .nationality-and-booking-time
+  > .nationality
+  > i {
+  margin-right: 8px;
+}
+
+.artist-card-container
+  > .artist-detail-area
+  > .rating-and-info-area
+  > .nationality-and-booking-time
+  > .booking-time {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  text-transform: capitalize;
+
+  color: #000000;
+}
+
+.artist-card-container
+  > .artist-detail-area
+  > .rating-and-info-area
+  > .nationality-and-booking-time
+  > .booking-time
+  > i {
+  margin-right: 8px;
+}
